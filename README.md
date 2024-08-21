@@ -125,31 +125,47 @@ Tracking Changes: Commits provide a history of modifications, allowing you to re
 Version Management: Each commit has a unique identifier, making it easy to revert to previous versions or compare different states of the project.
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 How Branching Works in Git
+
 Branching in Git allows you to create separate lines of development within a repository. Each branch represents a distinct version of the project where you can work on different features or fixes independently from the main codebase.
+
 Importance for Collaborative Development
+
 Isolation: Branches isolate changes, so you can develop new features or fixes without affecting the main codebase.
 Parallel Work: Multiple developers can work on different tasks simultaneously, reducing conflicts and improving productivity.
 Safe Integration: Changes can be reviewed and tested in branches before being integrated into the main codebase, enhancing code quality.
+
 Typical Workflow
+
 Create a Branch:
 git checkout -b [branch-name] (creates and switches to a new branch).
+
 Work on the Branch:
 Make changes, stage them (git add [file]), and commit (git commit -m "message").
 Push the Branch:
+
 git push origin [branch-name] (pushes the branch to the remote repository).
+
 Create a Pull Request (on GitHub):
+
 Open a pull request to merge changes from your branch into the main branch. This allows for code review and discussion.
+
 Merge the Branch:
 Once reviewed and approved, merge the branch into the main branch using GitHub’s interface or locally with git merge [branch-name].
 Delete the Branch (optional):
 After merging, delete the branch to keep the repository clean: git branch -d [branch-name] (local) and git push origin --delete [branch-name] (remote
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 Role of Pull Requests in the GitHub Workflow
+
 Pull requests (PRs) are a feature on GitHub that facilitate code review and collaboration by allowing developers to propose changes and discuss them before integrating them into the main codebase.
+
 How They Facilitate Code Review and Collaboration
+
 Code Review: PRs provide a platform for team members to review and comment on changes, ensuring code quality and consistency.
+
 Discussion: They allow for discussion around proposed changes, providing an opportunity to address issues or improvements before merging.
+
 Testing: PRs can be linked to continuous integration (CI) pipelines to automatically test changes before they are merged, ensuring they do not break the codebase.
+
 Typical Steps in Creating and Merging a Pull Request
 Create a Branch (if not already done):
 Work on a separate branch from the main codebase.
