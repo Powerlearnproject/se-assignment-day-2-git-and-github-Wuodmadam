@@ -31,11 +31,16 @@ Audit Trail: Version control provides an audit trail of who made what changes an
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 answer:
 Sign In to GitHub
+
 Open GitHub: Go to github.com.
+
 Sign In: Click the “Sign in” button at the top-right corner of the page and enter your GitHub credentials. Create a New Repository
+
 Go to Your Profile: Click on your profile picture in the top-right corner of the page to open the drop-down menu.
 Select "Your repositories": From the drop-down menu, select “Your repositories.” This will take you to a page listing your existing repositories.
+
 New Repository: Click the green “New” button on the right side of the page or the “New repository” button at the top-right corner of the repositories list.
+
 Configure the Repository
 Repository Name: Enter a name for your repository. This name must be unique within your GitHub account.
 Description (Optional): Add a description of your repository to provide more context about what it will contain or its purpose.
